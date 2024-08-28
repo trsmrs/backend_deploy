@@ -9,7 +9,7 @@ const authenticate = require('./middleware/authenticate');
 
 // Configuração do CORS
 const corsOptions = {
-  origin: 'backenddeploy-production-6f8a.up.railway.app',
+  origin: 'https://project-jackexperts.vercel.app/',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 };
